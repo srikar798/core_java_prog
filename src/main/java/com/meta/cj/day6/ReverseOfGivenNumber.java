@@ -17,7 +17,7 @@ public class ReverseOfGivenNumber {
             rev = ( rev * 10 ) + r ;
             num /= 10;
         }
-        return(rev);
+        return rev;
     }
 
 }
