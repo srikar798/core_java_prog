@@ -20,7 +20,6 @@ public class UsageOfEnum {
             case MONDAY, TUESDAY, WEDNESDAY, THURSDAY -> billAmount * 0.2;
             case FRIDAY, SATURDAY -> billAmount * 0.1;
             case SUNDAY -> billAmount * 0.05;
-
         };
     }
 }
