@@ -39,13 +39,24 @@ public class TvRemote {
     }
 
     public void volumeUp(){
-        volume++;
-        System.out.println("Volume is increased to : " + volume);
+        if( tempVolume != 0){
+            volume = tempVolume + 1 ;
+            System.out.println("Volume is increased to : " + volume);
+        }else {
+            volume++;
+            System.out.println("Volume is increased to : " + volume);
+        }
+
     }
 
     public void volumeDown(){
-        volume--;
-        System.out.println("Volume is decreased to : " + volume);
+        if( tempVolume != 0){
+            volume = tempVolume - 1 ;
+            System.out.println("Volume is decreased to : " + volume);
+        }else {
+            volume--;
+            System.out.println("Volume is decreased to : " + volume);
+        }
     }
 
     public void changeChannel(){
@@ -62,9 +73,9 @@ public class TvRemote {
     public static void main(String[] args){
         TvRemote tvRemote = new TvRemote();
         tvRemote.on();
-        tvRemote.volumeUp();
+        tvRemote.volumeDown();
+        tvRemote.showInfo();
         tvRemote.mute();
-        tvRemote.changeChannel();
         tvRemote.volumeUp();
         tvRemote.showInfo();
     }
