@@ -73,6 +73,7 @@ public class TvRemote {
     public static void main(String[] args){
         TvRemote tvRemote = new TvRemote();
         tvRemote.on();
+        tvRemote.volumeUp();
         tvRemote.volumeDown();
         tvRemote.showInfo();
         tvRemote.mute();
