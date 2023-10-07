@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added while loop example">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day8/TvRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day8/TvRemote.java" afterDir="false" />
-    </list>
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="did mistake . now added from instructor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="basicOOP" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,17 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;basicOOP&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/saisrikarchivukula/Documents/git/learning_java/src/main/java/com/meta/cj/day1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/learning_java/src/main/java/com/meta/cj"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj" />
       <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj/day1" />
     </key>
   </component>
@@ -121,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696028300523</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="did mistake . now added from instructor">
+      <option name="closed" value="true" />
+      <created>1696642742252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696642742252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,11 +144,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sep 19th update" />
     <MESSAGE value="added while loop example" />
-    <option name="LAST_COMMIT_MESSAGE" value="added while loop example" />
+    <MESSAGE value="did mistake . now added from instructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="did mistake . now added from instructor" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learning_java$CommandLineArguments.ic" NAME="CommandLineArguments Coverage Results" MODIFIED="1696029852448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.meta.cj.day9.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/learning_java$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1695604757368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.meta.cj.day7.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/learning_java$AccountManager.ic" NAME="AccountManager Coverage Results" MODIFIED="1696029211947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.meta.cj.day8.*</FILTER>
     </SUITE>
   </component>
 </project>
