@@ -1,0 +1,955 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac\" name=\"Changes\" comment=\"added while loop example\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/meta/cj/day8/TvRemote.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/meta/cj/day8/TvRemote.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2VaqmfzDBbccaYCLOQ9WJ8jezy3\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;basicOOP&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/saisrikarchivukula/Documents/git/learning_java/src/main/java/com/meta/cj/day1&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/java/com/meta/cj/day1\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac\" name=\"Changes\" comment=\"\" />\n      <created>1695084698838</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1695084698838</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"sep 19th update\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1695173720729</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1695173720729</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"sep 19th update\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1695260719243</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1695260719243</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"added while loop example\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1695435570169</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1695435570169</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"added while loop example\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1695436071783</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1695436071783</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"added while loop example\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1695436129620</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1695436129620</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"added while loop example\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1695857336504</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1695857336504</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"added while loop example\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1696028300523</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1696028300523</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"sep 19th update\" />\n    <MESSAGE value=\"added while loop example\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added while loop example\" />\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/learning_java$Calculator.ic\" NAME=\"Calculator Coverage Results\" MODIFIED=\"1695604757368\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\n      <FILTER>com.meta.cj.day7.*</FILTER>\n    </SUITE>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,9 +4,35 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added while loop example">
++    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added remote class">
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day10/AnagramExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day10/ArrayMethods.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day10/ArrayOperations.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day10/DynamicMemoryAllocation.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/ArrayWith2D.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/PatternExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/cms/Contact.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/cms/ContactManager.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/cms/ContactService.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/pms/Product.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/pms/ProductManager.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day11/pms/ProductServices.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day12/GeneratePrimeNumbers.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day12/ListExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day12/ListMethods.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day12/SplitMethodExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day12/txn/TransactionDetails.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day14/StringMethodExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day15/EnumExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day15/StringBuilderExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day15/StringExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day9/FindBiggestOfNNumbers.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day9/SumOfNNumbers.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/transactions.csv" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day8/TvRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day8/TvRemote.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day9/CommandLineArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day9/CommandLineArguments.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -28,6 +54,23 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;srikar798&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="3b1f0b69-53ef-4043-b21f-bff2c7cdaae9" />
++        <option name="url" value="https://github.com/srikar798/core_java_prog.git" />
++      </UrlAndAccount>
++    </option>
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/src/main/java/com/meta/cj/day10/ArrayOperations.java" root0="FORCE_HIGHLIGHTING" />
++  </component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+@@ -48,13 +91,33 @@
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;git-widget-placeholder&quot;: &quot;basicOOP&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/Users/saisrikarchivukula/Documents/git/learning_java/src/main/java/com/meta/cj/day1&quot;
++    &quot;last_opened_file_path&quot;: &quot;/Users/saisrikarchivukula/Documents/git/learning_java/src/main/java/com/meta/cj/day1&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj/day1" />
+     </key>
++    <key name="CopyClassDialog.RECENTS_KEY">
++      <recent name="com.meta.cj.day11.pms" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="CommandLineArguments" type="Application" factoryName="Application" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.meta.cj.day9.CommandLineArguments" />
++      <module name="learning_java" />
++      <option name="PROGRAM_PARAMETERS" value="one two three" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.meta.cj.day9.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -124,6 +187,9 @@
+     <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
++  <component name="UnknownFeatures">
++    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
++  </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+@@ -138,11 +204,18 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="sep 19th update" />
+     <MESSAGE value="added while loop example" />
+-    <option name="LAST_COMMIT_MESSAGE" value="added while loop example" />
++    <MESSAGE value="added remote class" />
++    <option name="LAST_COMMIT_MESSAGE" value="added remote class" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/learning_java$CommandLineArguments.ic" NAME="CommandLineArguments Coverage Results" MODIFIED="1696029852448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++      <FILTER>com.meta.cj.day9.*</FILTER>
++    </SUITE>
+     <SUITE FILE_PATH="coverage/learning_java$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1695604757368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>com.meta.cj.day7.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/learning_java$AccountManager.ic" NAME="AccountManager Coverage Results" MODIFIED="1696029211947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++      <FILTER>com.meta.cj.day8.*</FILTER>
+     </SUITE>
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/com/meta/cj/day10/ArrayOperations.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day10/ArrayOperations.java b/src/main/java/com/meta/cj/day10/ArrayOperations.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day10/ArrayOperations.java	
+@@ -0,0 +1,39 @@
++package com.meta.cj.day10;
++
++public class ArrayOperations {
++
++    public static void main(String[] args) {
++
++    }
++    private static int getIndexOf( int[] arr , int key ){
++        for(int i = 0; i <= arr.length; i++){
++            if(arr[i] == key){
++                return i;
++            }
++
++        }
++        return -1;
++    }
++
++    private static boolean isAllElementsPresent(int[] arr, int key1, int key2, int key3){
++        return getIndexOf(arr,key1) != -1 && getIndexOf(arr,key2) != -1 && getIndexOf(arr, key3) != -1;
++    }
++
++    private static boolean isSubSet(int[] bigArr, int[] smallArr){
++        for( int i = 0; i <= smallArr.length; i++){
++            if(getIndexOf(bigArr, smallArr[i]) == -1){
++                return false;
++            }
++        }
++        return true;
++    }
++
++    private static boolean isPalindrome(int[] arr){
++        for(int i = 0, j = arr.length ; i < j ; i++, j--){
++            if(arr[i] != arr[j]){
++                return false;
++            }
++        }
++        return true;
++    }
++}
+Index: src/main/java/com/meta/cj/day11/pms/Product.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day11/pms/Product.java b/src/main/java/com/meta/cj/day11/pms/Product.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day11/pms/Product.java	
+@@ -0,0 +1,39 @@
++package com.meta.cj.day11.pms;
++
++
++class Product {
++    private int pid;
++    private String pname;
++    private int price;
++
++    public Product(int pid, String pname, int price) {
++        this.pid = pid;
++        this.pname = pname;
++        this.price = price;
++    }
++
++    public int getPid() {
++        return pid;
++    }
++
++    public void setPid(int pid) {
++        this.pid = pid;
++    }
++
++    public String getPname() {
++        return pname;
++    }
++
++    public void setPname(String pname) {
++        this.pname = pname;
++    }
++
++    public int getPrice() {
++        return price;
++    }
++
++    public void setPrice(int price) {
++        this.price = price;
++    }
++}
++
+Index: src/main/java/com/meta/cj/day11/pms/ProductServices.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day11/pms/ProductServices.java b/src/main/java/com/meta/cj/day11/pms/ProductServices.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day11/pms/ProductServices.java	
+@@ -0,0 +1,83 @@
++package com.meta.cj.day11.pms;
++
++class ProductServices {
++
++    private Product[] arr;
++
++    public ProductServices() {
++        Product p1 = new Product(1001, "IPhone15", 125000);
++        Product p2 = new Product(1002, "IPhone14", 100000);
++        Product p3 = new Product(1003, "IPhone13", 95000);
++        Product p4 = new Product(1004, "Samsung", 80000);
++        Product p6 = new Product(1005, "IPhone13", 75000);
++        Product p7 = new Product(1006, "IPhone15pro", 125000);
++
++        arr = new Product[]{p1, p2, p3, p4, p6, p7};
++    }
++
++    public void showAllProducts() {
++        System.out.println("-".repeat(20));
++        for (Product p : arr) {
++            System.out.println(p.getPid() + " " + p.getPname() + " " + p.getPrice());
++        }
++        System.out.println("-".repeat(20));
++    }
++
++    public void showMaxPriceProducts() {
++        int maxPrice = getMaxPrice();
++        System.out.println("-".repeat(20));
++        for (Product p : arr) {
++            if (p.getPrice() == maxPrice) {
++                System.out.println(p.getPid() + " " + p.getPname() + " " + p.getPrice());
++            }
++        }
++        System.out.println("-".repeat(20));
++    }
++
++    public int getMaxPrice() {
++        int maxPrice = 0;
++        for (Product p : arr) {
++            if (p.getPrice() > maxPrice) {
++                maxPrice = p.getPrice();
++            }
++        }
++        return maxPrice;
++        //  System.out.println(" Max price product details " + maxPriceProduct.getPid() + " " + maxPriceProduct.getPname() + " " + maxPriceProduct.getPrice());
++
++    }
++
++    public void showMinPriceProducts() {
++
++        int minPrice = getMinPrice();
++        System.out.println("-".repeat(20));
++        for (Product p : arr) {
++            if (p.getPrice() == minPrice) {
++                System.out.println(p.getPid() + " " + p.getPname() + " " + p.getPrice());
++            }
++        }
++        System.out.println("-".repeat(20));
++
++    }
++
++    public int getMinPrice() {
++        int minPrice = arr[0].getPrice();
++        for (Product p : arr) {
++            if (p.getPrice() < minPrice) {
++                minPrice = p.getPrice();
++            }
++        }
++
++        return minPrice;
++    }
++
++    public void search(String str) {
++        System.out.println("-".repeat(20));
++        for (Product p : arr) {
++            if (p.getPname().toLowerCase().contains(str.toLowerCase())) {
++                System.out.println(p.getPid() + " " + p.getPname() + " " + p.getPrice());
++            }
++        }
++        System.out.println("-".repeat(20));
++    }
++
++}
+Index: src/main/java/com/meta/cj/day12/ListExample.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day12/ListExample.java b/src/main/java/com/meta/cj/day12/ListExample.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day12/ListExample.java	
+@@ -0,0 +1,29 @@
++package com.meta.cj.day12;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class ListExample {
++
++    public static void main(String[] args) {
++
++        List<String> names = new ArrayList<>();
++
++        names.add("Srikar");
++        names.add("Sai");
++        names.add("Kumar");
++        names.add("Vardhani");
++
++        for(String name : names){
++            System.out.println(name);
++        }
++
++        names.forEach(System.out::println);
++
++        for(int i =0; i< names.size(); i++){
++           String name = names.get(i);
++            System.out.println(name);
++        }
++
++    }
++}
+Index: src/main/java/com/meta/cj/day11/cms/Contact.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day11/cms/Contact.java b/src/main/java/com/meta/cj/day11/cms/Contact.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day11/cms/Contact.java	
+@@ -0,0 +1,38 @@
++package com.meta.cj.day11.cms;
++
++public class Contact {
++
++    private String name;
++    private String email;
++    private String mobile;
++
++    public Contact(String name, String email, String mobile) {
++        this.name = name;
++        this.email = email;
++        this.mobile = mobile;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public String getEmail() {
++        return email;
++    }
++
++    public void setEmail(String email) {
++        this.email = email;
++    }
++
++    public String getMobile() {
++        return mobile;
++    }
++
++    public void setMobile(String mobile) {
++        this.mobile = mobile;
++    }
++}
+Index: src/main/java/com/meta/cj/day11/cms/ContactService.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day11/cms/ContactService.java b/src/main/java/com/meta/cj/day11/cms/ContactService.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day11/cms/ContactService.java	
+@@ -0,0 +1,88 @@
++package com.meta.cj.day11.cms;
++
++public class ContactService {
++
++    private Contact[] arr;
++    private int count = 0;
++    private final int INITIAL_SIZE = 3;
++
++    public ContactService() {
++        arr = new Contact[INITIAL_SIZE];
++    }
++
++    public void addContact(Contact contact) {
++        if (count == arr.length) {
++            // Resize the array if it's full
++
++            Contact[] temp = new Contact[arr.length + 3];
++            System.arraycopy(arr, 0, temp, 0, arr.length);
++            arr = temp;
++        }
++        arr[count++] = contact;
++        System.out.println("Contact is added successfully");
++    }
++
++
++    public void updateContact(Contact contact) {
++
++        if(isContactExist(contact.getMobile())){
++            for(int i = 0; i < count ; i++){
++                Contact contact1 = arr[i];
++                if(contact.getMobile().equals(contact1.getMobile())){
++                    contact1.setEmail(contact.getEmail());
++                    contact1.setName(contact.getName());
++                    System.out.println("Contact with mobile: " + contact.getMobile() + " has been updated");
++                    return;
++                }
++            }
++        }else{
++            System.out.println("Contact with mobile: " + contact.getMobile() + " not found");
++        }
++
++    }
++
++    public void search(String str) {
++        for( int i = 0 ; i < count ; i++){
++            Contact contact = arr[i];
++            if(contact.getName().toLowerCase().contains(str.toLowerCase())){
++                System.out.println(contact.getName() + " " + contact.getMobile() + " " + contact.getEmail());
++            }
++        }
++    }
++
++    public void deleteContact(String mobile) {
++        for( int i = 0 ; i < count ; i++){
++            Contact contact = arr[i];
++            if(contact.getMobile().equals(mobile)){
++                for( int j = i ; j < count - 1 ; j++){
++                    arr[j] = arr[j+1];
++                }
++                arr[count - 1] = null;
++                count--;
++                System.out.println("Contact with mobile " + mobile + " is deleted successfully");
++                return;
++            }
++        }
++        System.out.println("Contact not found");
++    }
++
++    public void showAllContacts() {
++        if(count ==0){
++            System.out.println("No contacts found");
++        }
++        for(int i = 0; i < count; i++){
++            Contact contact = arr[i];
++            System.out.println(contact.getName() + " " + contact.getMobile() + " " + contact.getEmail());
++        }
++        System.out.println("-".repeat(30));
++    }
++    public boolean isContactExist(String mobile){
++        for(int i = 0; i < count ; i++){
++            Contact contact = arr[i];
++            if(contact.getMobile().equals(mobile)){
++                return true;
++            }
++        }
++        return false;
++    }
++}
+\ No newline at end of file
+Index: src/main/java/com/meta/cj/day11/pms/ProductManager.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day11/pms/ProductManager.java b/src/main/java/com/meta/cj/day11/pms/ProductManager.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day11/pms/ProductManager.java	
+@@ -0,0 +1,33 @@
++package com.meta.cj.day11.pms;
++
++import java.util.Scanner;
++
++public class ProductManager {
++    public static void main(String[] args) {
++
++        Scanner sc = new Scanner(System.in);
++        ProductServices ps = new ProductServices();
++        while (true) {
++            System.out.println("""
++                    1. Show all products
++                    2. Show max price products
++                    3. Show min price products
++                    4. Search product by name
++                    5. Exit
++                    Enter your choice(1-5):""");
++            int ch = sc.nextInt();
++            switch(ch){
++                case 1 -> ps.showAllProducts();
++                case 2 -> ps.showMaxPriceProducts();
++                case 3 -> ps.showMinPriceProducts();
++                case 4 -> {
++                    System.out.println("Enter the String :");
++                    String s = sc.next();
++                    ps.search(s);
++                }
++                case 5 -> System.exit(0);
++                default -> System.out.println("Invalid choice");
++            }
++            }
++    }
++}
+Index: src/main/java/com/meta/cj/day9/FindBiggestOfNNumbers.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day9/FindBiggestOfNNumbers.java b/src/main/java/com/meta/cj/day9/FindBiggestOfNNumbers.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day9/FindBiggestOfNNumbers.java	
+@@ -0,0 +1,110 @@
++package com.meta.cj.day9;
++
++import java.util.ArrayList;
++import java.util.Arrays;
++import java.util.concurrent.ThreadLocalRandom;
++
++public class FindBiggestOfNNumbers {
++
++    public static void main(String[] args) {
++
++        int[] arr = new int[10];
++        for (int i = 0; i< arr.length; i++){
++            arr[i] = ThreadLocalRandom.current().nextInt(1,50);
++        }
++        System.out.println(Arrays.toString(arr));
++        int max = biggest(arr);
++        int min = smallest(arr);
++        int sum = sumOfElements(arr);
++        int primeCount = primeCount(arr);
++        int evenCount = evenCount(arr);
++        int oddCount = oddCount(arr);
++        int[] a = perfectCount(arr);
++        System.out.println("Biggest number in the array is " + max + " and Smallest is " + min);
++        System.out.println("The Sum of the numbers in the array is " + sum);
++        System.out.println("The number of prime numbers in this array : " + primeCount);
++        System.out.println("The number of even numbers in the array : " + evenCount);
++        System.out.println("The number of odd numbers in the array : " + oddCount);
++        System.out.println("The perfectCount numbers in the array :" + Arrays.toString(a));
++
++    }
++
++    private static int biggest(int[] numArr){
++        int max = 0;
++        for( int a : numArr){
++            if( a > max){
++                max = a;
++            }
++        }
++        return max;
++    }
++    private static int smallest(int[] numArr){
++        int min = numArr[0];
++        for( int a : numArr){
++            if( a < min){
++                min = a;
++            }
++        }
++        return min;
++    }
++    private static int sumOfElements(int[] numArr){
++        int sum = 0;
++        for( int a : numArr){
++            sum += a;
++        }
++        return sum;
++    }
++
++    private static int primeCount(int[] numArr){
++        int count = 0;
++        for( int a : numArr){
++            int factors = 0;
++            for( int i = 1; i <= a ; i++){
++                if(a % i == 0){
++                    factors++;
++                }
++            }
++            if(factors == 2){
++                count++;
++            }
++        }
++        return count;
++    }
++
++    private static int evenCount(int[] numArr){
++        int count = 0;
++        for( int a : numArr){
++            if( a % 2 == 0){
++                count++;
++            }
++        }
++        return count;
++    }
++    private static int oddCount(int[] numArr){
++        int count = 0;
++        for( int a : numArr){
++            if( a % 2 == 1){
++                count++;
++            }
++        }
++        return count;
++    }
++    private static int[] perfectCount(int[] numArr){
++        int n = numArr.length;
++        int count = 0;
++        int[] arr = new int[n];
++        for( int a : numArr){
++            int sum = 0;
++            for( int i=1; i <= (a/2); i++){
++                if( a % i == 0){
++                    sum += i;
++                }
++            }
++            if(sum == a){
++                arr[count] = a;
++                count++;
++            }
++        }
++        return arr;
++    }
++}
+Index: src/main/java/com/meta/cj/day11/cms/ContactManager.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day11/cms/ContactManager.java b/src/main/java/com/meta/cj/day11/cms/ContactManager.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day11/cms/ContactManager.java	
+@@ -0,0 +1,68 @@
++package com.meta.cj.day11.cms;
++
++import java.util.Scanner;
++
++public class ContactManager {
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        ContactService cs = new ContactService();
++        while (true) {
++            System.out.println("-----------------Contact Manager-------------------");
++            System.out.println("""
++                    1. Add contact
++                    2. Show all contacts
++                    3. Search contact
++                    4. Delete contact
++                    5. Update contact
++                    6. Exit
++                    Enter your choice(1-6):
++                    """);
++            int ch = sc.nextInt();
++            switch (ch) {
++                case 1:
++                    System.out.println("Enter name :");
++                    String name = sc.next();
++                    System.out.println("Enter email :");
++                    String email = sc.next();
++                    System.out.println("Enter mobile :");
++                    String mobile = sc.next();
++                    Contact contact = new Contact(name, email, mobile);
++                    cs.addContact(contact);
++                    break;
++                case 2:
++                    cs.showAllContacts();
++                    break;
++                case 3:
++                    System.out.println("Enter name or email or mobile :");
++                    String str = sc.next();
++                    cs.search(str);
++                    break;
++                case 4:
++                    System.out.println("Enter mobile :");
++                    String delMobile = sc.next();
++                    cs.deleteContact(delMobile);
++                    break;
++                case 5:
++                    System.out.println("Enter mobile :");
++                    String mobile2 = sc.next();
++                    if (cs.isContactExist(mobile2)) {
++                        System.out.println("Enter new details");
++                        System.out.println("Enter name :");
++                        String name1 = sc.next();
++                        System.out.println("Enter email :");
++                        String email1 = sc.next();
++                        Contact contact1 = new Contact(name1, email1, mobile2);
++                        cs.updateContact(contact1);
++                    } else {
++                        System.out.println("Contact with mobile " + mobile2 + " does not exist");
++                    }
++                    break;
++                case 6:
++                    System.exit(0);
++                default:
++                    System.out.println("Invalid choice");
++            }
++        }
++    }
++}
+Index: src/main/java/com/meta/cj/day10/AnagramExample.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day10/AnagramExample.java b/src/main/java/com/meta/cj/day10/AnagramExample.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day10/AnagramExample.java	
+@@ -0,0 +1,30 @@
++package com.meta.cj.day10;
++
++import java.lang.reflect.Array;
++import java.util.Arrays;
++
++public class AnagramExample {
++
++    public static void main(String[] args) {
++        String str1 = "CAT";
++        String str2 = "TCA";
++        if(isAnagram(str1,str2)){
++            System.out.println(" Given strings are Anagram");
++        }else {
++            System.out.println(" Given strings are not Anagrams");
++        }
++
++    }
++
++    private static boolean isAnagram( String str1, String str2){
++        if(str1.length() != str2.length()){
++            return false;
++        }
++        char[] arr1 = str1.toCharArray();
++        char[] arr2 = str2.toCharArray();
++        Arrays.sort(arr1);
++        Arrays.sort(arr2);
++        return Arrays.equals(arr1,arr2);
++
++    }
++}
+Index: src/main/java/com/meta/cj/day10/ArrayMethods.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day10/ArrayMethods.java b/src/main/java/com/meta/cj/day10/ArrayMethods.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day10/ArrayMethods.java	
+@@ -0,0 +1,15 @@
++package com.meta.cj.day10;
++
++import java.util.Arrays;
++
++public class ArrayMethods {
++    public static void main(String[] args) {
++
++        int[] arr = {1,3,5,4,2,6,9,7};
++        Arrays.sort(arr);
++        System.out.println(Arrays.toString(arr));
++        int[] arr1 = {1,5,3,4,2,6,9,7};
++        Arrays.sort(arr1);
++        System.out.println(Arrays.equals(arr,arr1));
++    }
++}
+Index: src/main/java/com/meta/cj/day10/DynamicMemoryAllocation.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day10/DynamicMemoryAllocation.java b/src/main/java/com/meta/cj/day10/DynamicMemoryAllocation.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day10/DynamicMemoryAllocation.java	
+@@ -0,0 +1,85 @@
++package com.meta.cj.day10;
++
++import java.util.Arrays;
++
++class CustomerArray{
++
++    private int[] arr;
++    private final int INIT_SIZE = 5;
++    int count = 0;
++
++    CustomerArray(){
++        arr = new int[INIT_SIZE];
++    }
++
++    public void addElement(int ele){
++        if(count == arr.length) {
++            int[] temp = new int[arr.length + 3];
++            System.arraycopy(arr, 0, temp, 0, arr.length);
++            arr = temp;
++        }
++        arr[count++] = ele;
++    }
++    public void remove(int ele){
++        int i = indexOf(ele);
++        if(i != -1){
++            if( i == 0){
++                int[] temp = new int[arr.length-1];
++                System.arraycopy(arr,1,temp,0,arr.length-1);
++                arr = temp;
++                count--;
++            }else{
++                int[] l = new int[i];
++                int[] r = new int[arr.length-i-1];
++                System.arraycopy(arr,0,l,0,i);
++                System.arraycopy(arr,i+1,r,0,arr.length-i-1);
++                int[] temp = new int[arr.length-1];
++                System.arraycopy(l,0,temp,0,l.length);
++                System.arraycopy(r,0,temp,l.length,r.length);
++                arr = temp;
++                count--;
++            }
++
++        }else{
++            System.out.println("Element does not exist");
++        }
++    }
++    public int indexOf(int ele){
++        if(count == 0){
++            return -1;
++        }
++        for( int i=0; i < count ; i++){
++            if( arr[i] == ele){
++                return i;
++            }
++        }
++        return -1;
++    }
++
++
++    public void showArrayElements(){
++        int[] temp = new int[count];
++        System.arraycopy(arr,0,temp,0, count);
++        arr = temp;
++        System.out.println(Arrays.toString(arr));
++    }
++}
++public class DynamicMemoryAllocation {
++
++    public static void main(String[] args) {
++        CustomerArray arr = new CustomerArray();
++        arr.addElement(10);
++        arr.addElement(20);
++        arr.addElement(30);
++        arr.addElement(40);
++        arr.addElement(60);
++        arr.addElement(35);
++        arr.showArrayElements();
++        arr.remove(20);
++        arr.showArrayElements();
++        arr.remove(35);
++        arr.showArrayElements();
++        arr.remove(10);
++        arr.showArrayElements();
++    }
++}
+Index: src/main/java/com/meta/cj/day9/SumOfNNumbers.java
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day9/SumOfNNumbers.java b/src/main/java/com/meta/cj/day9/SumOfNNumbers.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/com/meta/cj/day9/SumOfNNumbers.java	
+@@ -0,0 +1,29 @@
++package com.meta.cj.day9;
++
++import java.util.Scanner;
++
++public class SumOfNNumbers {
++
++    public static void main(String[] args) {
++
++        Scanner sc = new Scanner(System.in);
++        System.out.println("Enter the N value :");
++        int n = sc.nextInt();
++        int sum = 0;
++        int avg = 0;
++
++        int[] arr = new int[n];
++
++        for( int i = 0; i < n ; i++){
++            System.out.println("Enter the " + (i+1) + " element");
++            arr[i] = sc.nextInt();
++        }
++        for( int j = 0; j < n ; j++){
++            sum += arr[j];
++        }
++        System.out.println("Sum of the digits in the array :" + sum);
++        avg = sum / n;
++        System.out.println("Average of the digits in the array :" + avg);
++
++    }
++}
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>com.meta</groupId>\n    <artifactId>learning_java</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n    <properties>\n        <maven.compiler.source>20</maven.compiler.source>\n        <maven.compiler.target>20</maven.compiler.target>\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n    </properties>\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -13,5 +13,12 @@
+         <maven.compiler.target>20</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
++    <dependencies>
++        <dependency>
++            <groupId>org.apache.xbean</groupId>
++            <artifactId>xbean-reflect</artifactId>
++            <version>3.7</version>
++        </dependency>
++    </dependencies>
+ 
+ </project>
+\ No newline at end of file
+Index: src/main/java/com/meta/cj/day9/CommandLineArguments.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.meta.cj.day9;\n\npublic class CommandLineArguments {\n    public static void main(String[] args) {\n    }\n}\n
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day9/CommandLineArguments.java b/src/main/java/com/meta/cj/day9/CommandLineArguments.java
+--- a/src/main/java/com/meta/cj/day9/CommandLineArguments.java	
++++ b/src/main/java/com/meta/cj/day9/CommandLineArguments.java	
+@@ -2,5 +2,6 @@
+ 
+ public class CommandLineArguments {
+     public static void main(String[] args) {
++        System.out.println("Number of arguments :" + args.length);
+     }
+ }
