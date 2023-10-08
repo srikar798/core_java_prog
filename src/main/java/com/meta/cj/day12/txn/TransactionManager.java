@@ -1,6 +1,6 @@
 package com.meta.cj.day12.txn;
 
-public class TransactionManager {
+public class  TransactionManager {
 
     public static void main(String[] args) {
 
