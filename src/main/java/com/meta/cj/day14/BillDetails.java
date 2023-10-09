@@ -35,7 +35,7 @@ public class BillDetails {
     }
 
     public double getNetAmount() {
-        return netAmount;
+        return netAmount = amount - discount + extraCharge;
     }
 
     public double getExtraCharge() {
@@ -47,10 +47,10 @@ public class BillDetails {
     }
 
     public void setDiscount(double discount){
-        this.discount = discount * amount;
+        this.discount = (discount * amount)/100;
     }
 
     public void setExtraCharge(double extraCharge){
-        this.extraCharge = extraCharge * amount;
+        this.extraCharge = (extraCharge * amount)/100;
     }
 }
