@@ -15,7 +15,18 @@ public class BillDetails {
         this.billNo = billNo;
         this.amount = amount;
         this.day = day;
-        calculateNetAmount();
+    }
+
+    @Override
+    public String toString() {
+        return "BillDetails{" +
+                "billNo='" + billNo + '\'' +
+                ", amount=" + amount +
+                ", day=" + day +
+                ", discount=" + discount +
+                ", netAmount=" + netAmount +
+                ", extraCharge=" + extraCharge +
+                '}';
     }
 
     public String getBillNo() {
@@ -42,9 +53,7 @@ public class BillDetails {
         return extraCharge;
     }
 
-    public void calculateNetAmount(){
-        netAmount = amount - discount + extraCharge;
-    }
+
 
     public void setDiscount(double discount){
         this.discount = (discount * amount)/100;
