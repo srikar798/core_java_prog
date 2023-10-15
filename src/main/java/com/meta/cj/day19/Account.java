@@ -35,6 +35,7 @@ public class Account {
         System.out.println("Account Number :"+accNumber);
         System.out.println("Name           :"+name);
         System.out.println("Balance        :"+balance);
+
     }
 
 }
