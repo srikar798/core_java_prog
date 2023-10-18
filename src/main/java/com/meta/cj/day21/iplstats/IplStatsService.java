@@ -47,6 +47,16 @@ public class IplStatsService {
         return roleStatsList;
     }
 
+    public List<Player> topPaidPlayers(int n) {
+
+        List<Player> playersCopy = new ArrayList<>(players);
+        playersCopy.sort((player1, player2) -> Double.compare(player2.amount(), player1.amount()));
+        if (n >= playersCopy.size()) {
+            return playersCopy;
+        } else {
+            return playersCopy.subList(0, n);
+        }
+    }
     public List<String> getUniqueTeams(){
         List<String> teamList = new ArrayList<>();
         for(Player player : players){

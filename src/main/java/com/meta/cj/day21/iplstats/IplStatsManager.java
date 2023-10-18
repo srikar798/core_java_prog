@@ -12,6 +12,7 @@ public class IplStatsManager {
         IplStatsService teams = new IplStatsService();
         System.out.println(teams.getUniqueTeams());
         System.out.println(teams.getRoleStats());
+        System.out.println(teams.topPaidPlayers(5));
 
 
 

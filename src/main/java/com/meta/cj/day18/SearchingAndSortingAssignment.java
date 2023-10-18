@@ -19,7 +19,7 @@ public class SearchingAndSortingAssignment {
                     swapped = true;
                 }
             }
-            if (swapped == false) {
+            if (!swapped) {
                 break;
             }
         }
