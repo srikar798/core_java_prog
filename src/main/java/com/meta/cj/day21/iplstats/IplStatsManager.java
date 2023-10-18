@@ -11,8 +11,12 @@ public class IplStatsManager {
         System.out.println(list.size());
         IplStatsService teams = new IplStatsService();
         System.out.println(teams.getUniqueTeams());
+        System.out.println(teams.getRoleStats());
 
-        System.out.println(teams.getTeamStats());
+
+
+
+
 
     }
 }

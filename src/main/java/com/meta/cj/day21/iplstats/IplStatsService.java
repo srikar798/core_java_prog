@@ -1,5 +1,6 @@
 package com.meta.cj.day21.iplstats;
 
+import javax.management.relation.Role;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,6 +31,22 @@ public class IplStatsService {
         return teamStatsList;
     }
 
+    public List<RoleStats> getRoleStats(){
+        List<RoleStats> roleStatsList = new ArrayList<>();
+        List<String> roles = getUniqueRoles();
+        for(String role : roles){
+            double totalAmount = 0;
+            for(Player player : players){
+                if(role.equals(player.role())){
+                    totalAmount += player.amount();
+                }
+            }
+            RoleStats roleStats = new RoleStats(role,totalAmount);
+            roleStatsList.add(roleStats);
+        }
+        return roleStatsList;
+    }
+
     public List<String> getUniqueTeams(){
         List<String> teamList = new ArrayList<>();
         for(Player player : players){
@@ -38,5 +55,14 @@ public class IplStatsService {
             }
         }
         return teamList;
+    }
+    public List<String> getUniqueRoles(){
+        List<String> roleslist = new ArrayList<>();
+        for(Player player : players){
+            if(!roleslist.contains(player.role())){
+                roleslist.add(player.role());
+            }
+        }
+        return roleslist;
     }
 }
