@@ -13,7 +13,6 @@ public class JsonReaderUtil {
         try{
             return objectMapper.readValue(JsonReaderUtil.class.getResourceAsStream(FILE_NAME), new TypeReference<>() {});
         } catch (Exception e){
-            //noinspection CallToPrintStackTrace
             e.printStackTrace();
             throw new RuntimeException("Failed to load hotel data");
         }
