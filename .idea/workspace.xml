@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added day 21">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day22/DefaultMethodInterfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day22/FactoryMethodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day22/FunctionalInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day22/InterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day22/InterfaceManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day22/MusicInstrumentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day22/PrinterManager.java" afterDir="false" />
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added day 22">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/FiveStarHotels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/HotelFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/HotelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/HotelRatingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/HotelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/JsonReaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/LambdaExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day23/LambdaExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hotel_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day18/SearchingAndSortingAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day18/SearchingAndSortingAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day21/iplstats/IplStatsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day21/iplstats/IplStatsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day21/iplstats/IplStatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day21/iplstats/IplStatsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,12 +60,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog/src/main",
+    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog/src/main/resources",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj" />
       <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj/day1" />
@@ -80,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.meta.cj.day16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelManager" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.meta.cj.day23.HotelManager" />
+      <module name="learning_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meta.cj.day23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697601713724</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added day 22">
+      <option name="closed" value="true" />
+      <created>1697673076718</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1697673076718</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +360,8 @@
     <MESSAGE value="added day 19" />
     <MESSAGE value="added day 20" />
     <MESSAGE value="added day 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 21" />
+    <MESSAGE value="added day 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 22" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
