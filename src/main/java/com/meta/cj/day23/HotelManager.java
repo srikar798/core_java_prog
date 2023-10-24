@@ -23,12 +23,7 @@ public class HotelManager {
         System.out.println("-".repeat(30));
 
         //get hotels in hyd
-        List<Hotel> filteredHotels = service.getFilteredHotels(new HotelFilter() {
-            @Override
-            public boolean test(Hotel hotel) {
-                return hotel.getCity().equalsIgnoreCase("Hyd");
-            }
-        });
+        List<Hotel> filteredHotels = service.getFilteredHotels(hotel ->hotel.getCity().equalsIgnoreCase("Hyd"));
 
         //get hotels with Type - FOUR_STAR
 

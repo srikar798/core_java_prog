@@ -10,7 +10,7 @@ import lombok.ToString;
 public class Hotel {
     private String name;
     private HotelType type;
-    private  double pricePerNight;
+    private double pricePerNight;
     private String city;
     private double rating;
 
