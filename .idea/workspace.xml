@@ -5,6 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added day 23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day24/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day24/CheckedExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day24/ExceptionExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day24/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day24/OverRidingVsOverLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/JsonReaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/QuizManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/QuizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/QuizServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/QuizType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/quiz/WalletExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/wallet/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/wallet/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/wallet/WalletList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/wallet/WalletManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/wallet/WalletNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/wallet/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/wallet/WalletServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/quiz/gk_quiz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/quiz/java_quiz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/quiz/sports_quiz.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,28 +67,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/saisrikarchivukula/Documents/git/core_java_prog/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog/src/main/java/com/meta/cj",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.meta.cj.wallet" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj" />
       <recent name="$PROJECT_DIR$/src/main/java/com/meta/cj/day1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FinalVariablesByReferenceDatatype">
+  <component name="RunManager">
     <configuration name="FinalVariablesByReferenceDatatype" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.meta.cj.day16.FinalVariablesByReferenceDatatype" />
       <module name="learning_java" />
@@ -328,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697759075741</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added day 23">
+      <option name="closed" value="true" />
+      <created>1698184742929</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1698184742929</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
