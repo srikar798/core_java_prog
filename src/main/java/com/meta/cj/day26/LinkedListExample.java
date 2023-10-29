@@ -9,6 +9,13 @@ public class LinkedListExample {
         LinkedList<String> list = new LinkedList<>();
         list.add("Java");
         list.add("Python");
-        list.add("C#")
+        list.add("C#");
+        list.add("JavaScript");
+        System.out.println(list.getFirst());
+        System.out.println(list.getLast());
+        list.addFirst("Rust");
+
+        System.out.println(list);
+
     }
 }
