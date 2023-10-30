@@ -31,7 +31,7 @@ public class ListMethodsExample {
 
         //Auto boxing and unboxing 1.5
 
-        list.remove(Integer.valueOf(10));
+        list.remove(Integer.valueOf(10) );
         System.out.println(list);
     }
 }

@@ -21,6 +21,7 @@ public class ProcessingElementsFromList {
         }
 
         //same output using simple lambda
+        //Consumer<String> consumer = (ele) -> System.out.println(ele);
         //list.forEach(System.out::println);
 
         //USing Iterator

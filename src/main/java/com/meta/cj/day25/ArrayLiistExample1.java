@@ -7,7 +7,7 @@ public class ArrayLiistExample1 {
 
     public static void main(String[] args) {
 
-        int lb = 10;
+        int lb = 1;
         int ub = 35;
         List<Integer> primeList = generatePrimeNumbers(lb,ub);
         System.out.println(primeList);

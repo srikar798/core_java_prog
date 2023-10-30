@@ -14,8 +14,8 @@ public class ArrayListExample {
         list.add(30);
         list.add(0,10);
         list.add(1,20);
-        System.out.println(list.size());
         System.out.println(list.isEmpty());
+        System.out.println(list.size());
         System.out.println(CollectionUtils.isEmpty(list));
         System.out.println(list);
     }

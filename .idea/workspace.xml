@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added day25 assignment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day26/SetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day26/SetExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day26/SetExampleWithCustomObject.java" afterDir="false" />
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added set">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/AssignmentQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/AssignmentQuestion2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/PaymentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/QuestionBankExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/SetExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/SetExampleWithLinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day27/StreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day26/LinkedListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day26/LinkedListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ArrayLiistExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ArrayLiistExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ListMethodsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ListMethodsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ProcessingElementsFromList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meta/cj/day25/ProcessingElementsFromList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698448569997</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added set">
+      <option name="closed" value="true" />
+      <created>1698537633611</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1698537633611</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +408,8 @@
     <MESSAGE value="added day 23" />
     <MESSAGE value="added day25" />
     <MESSAGE value="added day25 assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day25 assignment" />
+    <MESSAGE value="added set" />
+    <option name="LAST_COMMIT_MESSAGE" value="added set" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
