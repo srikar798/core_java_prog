@@ -1,0 +1,41 @@
+Index: src/main/java/com/meta/cj/day21/iplstats/IplStatsManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.meta.cj.day21.iplstats;\n\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class IplStatsManager {\n\n    public static void main(String[] args) {\n\n        List<Player> list = new JsonUtil().loadPlayers();\n        System.out.println(list.size());\n        IplStatsService teams = new IplStatsService();\n        System.out.println(teams.getUniqueTeams());\n        System.out.println(teams.getRoleStats());\n\n\n\n\n\n\n    }\n}\n
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day21/iplstats/IplStatsManager.java b/src/main/java/com/meta/cj/day21/iplstats/IplStatsManager.java
+--- a/src/main/java/com/meta/cj/day21/iplstats/IplStatsManager.java	
++++ b/src/main/java/com/meta/cj/day21/iplstats/IplStatsManager.java	
+@@ -12,6 +12,7 @@
+         IplStatsService teams = new IplStatsService();
+         System.out.println(teams.getUniqueTeams());
+         System.out.println(teams.getRoleStats());
++        System.out.println(teams.topPaidPlayers(5));
+ 
+ 
+ 
+Index: src/main/java/com/meta/cj/day21/iplstats/IplStatsService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.meta.cj.day21.iplstats;\n\nimport javax.management.relation.Role;\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class IplStatsService {\n\n    private List<Player> players;\n\n    public IplStatsService(){\n        JsonUtil jsonUtil = new JsonUtil();\n        players = jsonUtil.loadPlayers();\n    }\n\n    public List<TeamStats> getTeamStats(){\n        List<TeamStats> teamStatsList = new ArrayList<>();\n        List<String> teamNames = getUniqueTeams();\n\n        for(String team : teamNames){\n            double totalAmount = 0;\n            for(Player player : players){\n                if(team.equals(player.teamName())){\n                    totalAmount += player.amount();\n                }\n            }\n            TeamStats teamStats = new TeamStats(team,totalAmount);\n            teamStatsList.add(teamStats);\n        }\n\n        return teamStatsList;\n    }\n\n    public List<RoleStats> getRoleStats(){\n        List<RoleStats> roleStatsList = new ArrayList<>();\n        List<String> roles = getUniqueRoles();\n        for(String role : roles){\n            double totalAmount = 0;\n            for(Player player : players){\n                if(role.equals(player.role())){\n                    totalAmount += player.amount();\n                }\n            }\n            RoleStats roleStats = new RoleStats(role,totalAmount);\n            roleStatsList.add(roleStats);\n        }\n        return roleStatsList;\n    }\n\n    public List<String> getUniqueTeams(){\n        List<String> teamList = new ArrayList<>();\n        for(Player player : players){\n            if(!teamList.contains(player.teamName())){\n                teamList.add(player.teamName());\n            }\n        }\n        return teamList;\n    }\n    public List<String> getUniqueRoles(){\n        List<String> roleslist = new ArrayList<>();\n        for(Player player : players){\n            if(!roleslist.contains(player.role())){\n                roleslist.add(player.role());\n            }\n        }\n        return roleslist;\n    }\n}\n
+===================================================================
+diff --git a/src/main/java/com/meta/cj/day21/iplstats/IplStatsService.java b/src/main/java/com/meta/cj/day21/iplstats/IplStatsService.java
+--- a/src/main/java/com/meta/cj/day21/iplstats/IplStatsService.java	
++++ b/src/main/java/com/meta/cj/day21/iplstats/IplStatsService.java	
+@@ -47,6 +47,16 @@
+         return roleStatsList;
+     }
+ 
++    public List<Player> topPaidPlayers(int n) {
++
++        List<Player> playersCopy = new ArrayList<>(players);
++        playersCopy.sort((player1, player2) -> Double.compare(player2.amount(), player1.amount()));
++        if (n >= playersCopy.size()) {
++            return playersCopy;
++        } else {
++            return playersCopy.subList(0, n);
++        }
++    }
+     public List<String> getUniqueTeams(){
+         List<String> teamList = new ArrayList<>();
+         for(Player player : players){
