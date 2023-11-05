@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added jdbc">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -425,7 +424,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699146530499</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added jdbc">
+      <option name="closed" value="true" />
+      <created>1699176835730</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1699176835730</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added jdbc">
+      <option name="closed" value="true" />
+      <created>1699176903151</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1699176903151</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,6 +476,7 @@
     <MESSAGE value="added set" />
     <MESSAGE value="added day27 with answers" />
     <MESSAGE value="added sortings and searching" />
+    <MESSAGE value="added playerstats" />
     <MESSAGE value="added jdbc" />
     <option name="LAST_COMMIT_MESSAGE" value="added jdbc" />
   </component>
