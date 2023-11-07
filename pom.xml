@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>learning-junit</module>
+        <module>core_java</module>
     </modules>
 
     <properties>
