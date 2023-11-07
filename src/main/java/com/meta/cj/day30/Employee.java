@@ -1,15 +1,17 @@
 package com.meta.cj.day30;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Employee {
     private long id;
     private String name;
-    private LocalDate dob;
     private LocalDate doj;
+    private LocalDate dob;
 }
