@@ -4,18 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.meta</groupId>
-    <artifactId>learning_java</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>design_patterns</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>learning-junit</module>
-        <module>core_java</module>
-        <module>ipl-stats-jdbc</module>
-        <module>learning_java_jdbc</module>
-        <module>design_patterns</module>
-        <module>ui-ws</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
@@ -45,7 +36,5 @@
             <version>3.12.0</version>
         </dependency>
     </dependencies>
-
-
 
 </project>
