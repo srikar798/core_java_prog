@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content = "width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Learning HTML</title>
+    </head>
+<body>
+    <div id = "main-heading">Headings</div>
+    <p>
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+    </p>
+    <div id="main-heading" > HTML Table</div>
+    <p>
+        <table class="idTeams">
+            <thead id>
+                <tr>
+                    <th>Country</th>
+                    <th>Captain</th>
+                    <th>Coach</th>
+                    <th>Flag</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>India</td>
+                    <td>Rohit Sharma</td>
+                    <td>Rahul Dravid</td>
+                    <td><img class = "idFlag"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwIN570RhQYC1TV6uDqdCh70l0ENSP0II3g&usqp=CAU" alt = "India Flag" ></td>
+                </tr>
+                    <td>Australia</td>
+                    <td>David Warner</td>
+                    <td>Ricky Pointing</td>
+                    <td><img class = "idFlag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQqtxoHIL6K6Ax10b0Tx9FkLhMPo5duiw2Eg&usqp=CAU" alt = "Australia Flag" ></td>
+                </tr>
+                <tr>
+                    <td>New Zealand</td>
+                    <td>Kane Williamson</td>
+                    <td>Ross Taylor</td>
+                    <td><img class = "idFlag"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6F5r9C6MN4fWbTGcu_zlPSNiLpQBeVECNQ&usqp=CAU" alt = "New Zealand Flag"></td>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+    <div id="main-heading">List Items</div>
+    <p>
+        <h3>Top 6 countries (Cricket)</h3>
+        <ol>
+            <li>India</li>
+            <li>Australia</li>
+            <li>England</li>
+            <li>New Zealand</li>
+            <li>Pakistan</li>
+            <li>South Africa</li>
+        </ol>
+        <h3>Must read books</h3>
+        <ul>
+            <li>Rich dad Poor Dad</li>
+            <li>Think and Grow Rich</li>
+            <li>How to win friends and influence people</li>
+            <li>Zero to Hero</li>
+            <li>Atomic Habits</li>
+            <li>7 Habits of Highly Effective People</li>
+        </ul>
+    </p>
+
+    <div id="main-heading">Images</div>
+    <p>
+        <img id="idFlag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwHh4r1GbToQ70vxAl56WKr5SKiKp7YP6BURvwpVWJsafjI8zlaM3SqZvRw&s=10" alt="UK">
+        <img id="idFlag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6F5r9C6MN4fWbTGcu_zlPSNiLpQBeVECNQ&usqp=CAU" alt="Australia" >
+        <img id="idFlag" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6F5r9C6MN4fWbTGcu_zlPSNiLpQBeVECNQ&usqp=CAU" alt="New Zealand" >
+    </p>
+
+    <div id ="main-heading">Links</div>
+
+    <ul>
+        <li><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">HTML Tutorial</a></li>
+        <li><a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">CSS Selectors</a></li>
+    </ul>
+    <p>
+        <form action="#" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" value="Doe"><br><br>
+            <label for="country">Select Country</label><br>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Australia">Australia</option>
+                <option value="England">England</option>
+                <option value="Pakistan">Pakistan</option>
+            </select><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" value="m" name="gender">M
+            <input type="radio" value="f" name="gender">F
+            <br>
+            <label for="course">Select Course:</label><br>
+            <input type="checkbox" name="technology1" value="HTML"> HTML <br />
+            <input type="checkbox" name="technology2" value="CSS"> CSS <br />
+            <input type="checkbox" name="technology3" value="Javascript"> Javascript <br />
+            <input type="checkbox" name="technology1" value="JQuery"> JQuery <br /><br>
+            <input type="submit" value="Submit">    
+        </form>
+    </p>
+
+</body>
+</html>
