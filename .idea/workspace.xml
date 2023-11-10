@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added ui">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/IplStatsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/IplStatsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/dao/IplStatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/dao/IplStatDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/dao/IplStatDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/dao/IplStatDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/domain/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/dto/RoleStatsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/dto/RoleStatsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/dto/TeamStatsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/dto/TeamStatsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/service/IplStatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/service/IplStatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/service/IplStatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/service/IplStatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/com.meta.cj/iplstats/util/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ipl-stats-jdbc/src/main/java/org/iplstats/util/ConnectionUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added ui" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +24,7 @@
         <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ipl-stats-jdbc" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -82,7 +71,7 @@
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FinalVariablesByReferenceDatatype">
     <configuration name="FinalVariablesByReferenceDatatype" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.meta.cj.day16.FinalVariablesByReferenceDatatype" />
       <module name="learning_java" />
@@ -349,7 +338,31 @@
       <option name="project" value="LOCAL" />
       <updated>1699509504279</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added ui">
+      <option name="closed" value="true" />
+      <created>1699560813361</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1699560813361</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added ui">
+      <option name="closed" value="true" />
+      <created>1699560949575</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1699560949575</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added ui">
+      <option name="closed" value="true" />
+      <created>1699561062910</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1699561062910</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
