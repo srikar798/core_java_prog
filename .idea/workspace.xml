@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added ui and js">
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/main/java/com/junit/AnagramExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/main/java/com/junit/EmiCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/main/java/com/junit/FactorialOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/main/java/com/junit/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/test/java/com/junit/AnagramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/test/java/com/junit/EmiCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/test/java/com/junit/FactorialOfNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/test/java/com/junit/JunitAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/test/java/com/junit/JunitDynamicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/test/java/com/junit/MathOperationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning-junit/src/test/java/com/junit/TestSuitExample.java" afterDir="false" />
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-junit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learning-junit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning-junit/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +76,7 @@
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FinalVariablesByReferenceDatatype">
     <configuration name="FinalVariablesByReferenceDatatype" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.meta.cj.day16.FinalVariablesByReferenceDatatype" />
       <module name="learning_java" />
@@ -405,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699575909770</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added junit">
+      <option name="closed" value="true" />
+      <created>1699662837680</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1699662837680</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +431,8 @@
     <MESSAGE value="added day 30-assignment" />
     <MESSAGE value="added ui" />
     <MESSAGE value="added ui and js" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ui and js" />
+    <MESSAGE value="added junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="added junit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
