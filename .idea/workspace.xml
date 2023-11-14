@@ -41,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog/ui-ws",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/saisrikarchivukula/Documents/git/core_java_prog/ui-ws&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ui-ws" />
@@ -75,7 +75,7 @@
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FinalVariablesByReferenceDatatype">
+  <component name="RunManager" selected="JUnit.AnagramTest">
     <configuration name="FinalVariablesByReferenceDatatype" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.meta.cj.day16.FinalVariablesByReferenceDatatype" />
       <module name="learning_java" />
@@ -103,6 +103,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learning-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.junit.AnagramTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MathOperationsTest.generatePrimeWithLowerBoundMaxUpperBoundMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learning-junit" />
       <extension name="coverage">
@@ -121,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnagramTest" />
         <item itemvalue="JUnit.MathOperationsTest.generatePrimeWithLowerBoundMaxUpperBoundMin" />
         <item itemvalue="Application.OverLoadingOfMethods" />
       </list>

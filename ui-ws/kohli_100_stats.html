@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kohli 100's stats</title>
-        <script src="js/kohli_stats.js"></script>
+       
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
@@ -12,12 +14,18 @@
             <div class="display-5">Virat Kohli 100's Stats</div>
             <p>Lorem dolar sit amet consectetur adipisicing eli.</p>
         </div>
-        <div class="container">
+        <div class="container mt-2">
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div id="idFormatWith100sChart"></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="idCountryDropDown"></div>
+                    <div id ="id100CountInfo"></div>
+                </div>
                 <div class="col-md-4"></div>
             </div>
         </div>
+        <script src="js/kohli_stats.js"></script>
     </body>
 </html>
