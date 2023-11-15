@@ -41,7 +41,7 @@ window.onload = function(){
         drawFormatWith100sChart(list_100_format);
         showCountryDropDown(country);
         document.getElementById("idCountry").addEventListener("change",function(){
-            showCountryDropDown(this.ariaValueMax,arr);
+            showCountry100Information(this.value, arr, format);
         });
         
     
@@ -50,17 +50,18 @@ window.onload = function(){
 
 function showCountry100Information(country, arr, format){
     let country_100_map = new Map();
-    arr.forEach(ele=> {
-        if(ele["Against"]== country){
-            if(country_100_map[ele["Format"]]){
-                country_100_map[ele["Format"]] += 1;
-            }else{
-                country_100_map[ele["Format"]] =1;
+    arr.forEach(ele => {
+        if (ele["Against"].trim() == country.trim()) {
+            console.log(ele["Against"].trim(), country.trim());
+            if (country_100_map[ele["Format"]]) {
+               country_100_map[ele["Format"]] += 1;
+            } else {
+               country_100_map[ele["Format"]] = 1;
             }
-        }
+       }
     });
     format.forEach(ele => {
-        if(!country_100_map[ele]){
+        if (!country_100_map[ele]) {
             country_100_map[ele] = 0;
         }
     });
@@ -79,14 +80,15 @@ function showCountry100Information(country, arr, format){
         </tr>`;
     }
     table100Counts += `</tbody></table>`;
-    document.getElementById("id100CountInfo").innerHTML = `<h2>${country}</h2>`;
+    document.getElementById("id100CountInfo").innerHTML = table100Counts;
 }
 function showCountryDropDown(country){
     let str = `<select id="idCountry" class="form-select">`;
+    str +=`<option value="">Select Country</option>`
     country.forEach(ele=>{
-        str += `<option value=${ele}>${ele}</option>`;
+        str += `<option value='${ele}'>${ele}</option>`;
     });
-    str += `</select`;
+    str += `</select>`;
     document.getElementById("idCountryDropDown").innerHTML = str;
 }
 
