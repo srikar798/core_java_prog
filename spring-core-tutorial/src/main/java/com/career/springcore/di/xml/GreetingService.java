@@ -1,4 +1,4 @@
-package com.career.springcore.di;
+package com.career.springcore.di.xml;
 
 public interface GreetingService {
 
