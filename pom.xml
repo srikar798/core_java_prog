@@ -15,6 +15,7 @@
 	<description>Spring Boot - All Example</description>
 	<modules>
 	<module>hello-world</module>
+		<module>spring-core-tutorial</module>
 	</modules>
 
 </project>
