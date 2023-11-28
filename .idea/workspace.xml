@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added spring">
-      <change afterPath="$PROJECT_DIR$/spring-core/common-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/common-util/src/main/java/com/career/common/util/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/common-util/src/main/java/com/career/common/util/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/common-util/src/main/java/com/career/common/util/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/di/javaConfig/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/di/javaConfig/HpPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/di/javaConfig/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/di/javaConfig/NumberOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/di/javaConfig/PrintService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/di/javaConfig/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/di/javaConfig/SonyPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/lifecycle/DataLoaderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/lifecycle/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/scope/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/scope/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/spring-core-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added spring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695084698838</updated>
-    </task>
-    <task id="LOCAL-00002" summary="sep 19th update">
-      <option name="closed" value="true" />
-      <created>1695260719243</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1695260719243</updated>
     </task>
     <task id="LOCAL-00003" summary="added while loop example">
       <option name="closed" value="true" />
@@ -598,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701118378995</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="added spring">
+      <option name="closed" value="true" />
+      <created>1701148112742</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1701148112742</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

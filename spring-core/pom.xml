@@ -18,6 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
+        <module>common-util</module>
         <module>hello-world</module>
         <module>spring-core-tutorial</module>
     </modules>
