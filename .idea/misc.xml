@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/../learning_java_jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/../design_patterns/pom.xml" />
         <option value="$PROJECT_DIR$/../ipl-stats-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core/common-util/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
