@@ -5,11 +5,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "player")
+@Table(name = "players")
 @Getter
 @Setter
 public class PlayerDetails {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,9 +16,10 @@ public class PlayerDetails {
     private String name;
     @Column(name = "role")
     private String roleName;
-    @Column(name = "team_name")
+    @Column(name = "team")
     private String teamName;
     @Column(name = "amount")
-    private  String amount;
-
+    private String amount;
+    @Column(name = "country")
+    private String countryName;
 }

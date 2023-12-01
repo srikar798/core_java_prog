@@ -2,10 +2,14 @@ package com.career.iplstats.dto;
 
 import lombok.*;
 
-@Data
-@AllArgsConstructor@NoArgsConstructor
-@Builder
+import java.math.BigDecimal;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+
 public class TeamAmountStatsDto {
     private String teamName;
-    private double totalAmount;
+    private BigDecimal totalAmount;
 }

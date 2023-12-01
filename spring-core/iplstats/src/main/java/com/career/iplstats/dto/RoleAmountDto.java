@@ -1,15 +1,14 @@
 package com.career.iplstats.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
-@Builder
+import java.math.BigDecimal;
+
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class RoleAmountDto {
     private String roleName;
-    private double totalAmount;
+    private BigDecimal totalAmount;
 }
