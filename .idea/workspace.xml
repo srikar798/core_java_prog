@@ -34,7 +34,7 @@
         <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cbook" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,9 +57,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog/spring-core",
+    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -96,7 +96,7 @@
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FinalVariablesByReferenceDatatype">
     <configuration name="FinalVariablesByReferenceDatatype" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.meta.cj.day16.FinalVariablesByReferenceDatatype" />
       <module name="learning_java" />

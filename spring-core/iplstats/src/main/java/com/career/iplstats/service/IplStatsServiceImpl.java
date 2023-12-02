@@ -4,6 +4,7 @@ import com.career.iplstats.domain.PlayerDetails;
 import com.career.iplstats.dto.CountryCountStats;
 import com.career.iplstats.dto.RoleAmountDto;
 import com.career.iplstats.dto.TeamAmountStatsDto;
+import com.career.iplstats.exception.TeamNotFoundException;
 import com.career.iplstats.repo.IplStatsRepo;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -51,6 +52,10 @@ public class IplStatsServiceImpl implements IplStatsService{
     @Override
     public List<PlayerDetails> getPlayersOf(String teamName) {
         Assert.notNull(teamName,"Team name should not be null");
+        if(!iplStatsRepo.existsByTeamName(teamName)){
+            log.info("team name {} not found",teamName);
+            throw new TeamNotFoundException("Team with the name :" + teamName + " not found");
+        }
         List<PlayerDetails> playerDetails = iplStatsRepo.findByTeamName(teamName);
         log.info("Total players found for team {} is {}",teamName,playerDetails.size());
         return playerDetails;
@@ -59,11 +64,12 @@ public class IplStatsServiceImpl implements IplStatsService{
     @Override
     public List<RoleAmountDto> getRoleAmountStats(String teamName) {
 
-        List<RoleAmountDto> roleAmountStats = iplStatsRepo.findRoleAmountStats();
+        List<RoleAmountDto> roleAmountStats = iplStatsRepo.findRoleAmountOfTeam(teamName);
         log.info("Total amount for roles is {}",roleAmountStats.size());
         return roleAmountStats;
 
     }
+
 
     @Override
     public List<CountryCountStats> getCountryCountStats() {

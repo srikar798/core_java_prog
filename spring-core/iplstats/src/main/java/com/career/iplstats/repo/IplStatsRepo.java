@@ -32,4 +32,6 @@ public interface IplStatsRepo extends JpaRepository<PlayerDetails, Long> {
     List<CountryCountStats> findCountryCountStats(@Param("teamName")String teamName,@Param("roleName") String roleName);
 
 
+    boolean existsByTeamName(String teamName);
+
 }
