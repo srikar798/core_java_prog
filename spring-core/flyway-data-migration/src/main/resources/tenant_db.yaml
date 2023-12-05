@@ -1,0 +1,11 @@
+tenants:
+  - name: tenant1
+    db:
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: dbuser
+  - name : tenant2
+    db:
+      url: jdbc:postgresql://dpg-ckk98iglk5ic739dcue0-a.oregon-postgres.render.com/srikar_db
+      username: dbuser
+      password: 7pSYUDRCEsqByV3o4VkxRiZQ960QQgFx

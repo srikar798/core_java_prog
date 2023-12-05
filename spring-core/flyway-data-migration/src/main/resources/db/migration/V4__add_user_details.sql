@@ -1,0 +1,1 @@
+insert into app_user(username, email, password) values('Kumar','kumar@gmail.com','kumar123');

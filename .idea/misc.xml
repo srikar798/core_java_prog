@@ -9,11 +9,13 @@
         <option value="$PROJECT_DIR$/../design_patterns/pom.xml" />
         <option value="$PROJECT_DIR$/../ipl-stats-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-core/common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/../data-migration/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/coobbook/pom.xml" />
+        <option value="$PROJECT_DIR$/../data-migration/pom.xml" />
       </set>
     </option>
   </component>
