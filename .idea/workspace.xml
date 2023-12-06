@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added spring">
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/java/com/career/dm/DbDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/java/com/career/dm/DbMigrationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/java/com/career/dm/TenantDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/java/com/career/dm/TenantMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/resources/db/migration/V1__create_app_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/resources/db/migration/V2__add_user_details.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/resources/db/migration/V3__truncate_table_values.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/resources/db/migration/V4__add_user_details.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-core/flyway-data-migration/src/main/resources/tenant_db.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added flyDb migration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/spring-core-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/cbook/dao/ContactDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/spring-core-tutorial/src/main/java/com/career/springcore/cbook/dao/ContactDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,14 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695084698838</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added while loop example">
-      <option name="closed" value="true" />
-      <created>1695435570169</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1695435570169</updated>
     </task>
     <task id="LOCAL-00004" summary="added while loop example">
       <option name="closed" value="true" />
@@ -614,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701148112742</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="added flyDb migration">
+      <option name="closed" value="true" />
+      <created>1701749190524</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1701749190524</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -662,7 +647,8 @@
     <MESSAGE value="added wi" />
     <MESSAGE value="added api" />
     <MESSAGE value="added spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="added spring" />
+    <MESSAGE value="added flyDb migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flyDb migration" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
