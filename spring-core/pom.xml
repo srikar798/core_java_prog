@@ -24,5 +24,6 @@
         <module>spring-core-tutorial</module>
         <module>flyway-data-migration</module>
         <module>student-course</module>
+        <module>spring-aop</module>
     </modules>
 </project>
