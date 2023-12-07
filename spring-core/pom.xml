@@ -23,5 +23,6 @@
         <module>iplstats</module>
         <module>spring-core-tutorial</module>
         <module>flyway-data-migration</module>
+        <module>student-course</module>
     </modules>
 </project>

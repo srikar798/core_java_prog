@@ -3,11 +3,14 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/common-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flyway-data-migration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flyway-data-migration/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-world/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iplstats/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core-tutorial/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core-tutorial/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-course/src/main/java" charset="UTF-8" />
   </component>
 </project>

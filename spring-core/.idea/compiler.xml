@@ -9,7 +9,9 @@
         <module name="hello-world" />
         <module name="iplstats" />
         <module name="common-util" />
+        <module name="flyway-data-migration" />
         <module name="spring-core-tutorial" />
+        <module name="student-course" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hello-world" options="-parameters" />
       <module name="iplstats" options="-parameters" />
+      <module name="student-course" options="-parameters" />
     </option>
   </component>
 </project>
