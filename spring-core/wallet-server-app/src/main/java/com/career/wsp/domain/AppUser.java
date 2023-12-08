@@ -1,6 +1,7 @@
 package com.career.wsp.domain;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
 import lombok.Getter;
@@ -13,6 +14,7 @@ import java.util.UUID;
 @Setter
 public class AppUser extends BaseEntity{
 
+    @Id
     private UUID id;
     private String username;
     private String password;

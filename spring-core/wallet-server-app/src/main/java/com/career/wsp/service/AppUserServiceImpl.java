@@ -1,7 +1,10 @@
 package com.career.wsp.service;
 
+import com.career.wsp.domain.AppUser;
 import com.career.wsp.dto.AppUserDto;
 import com.career.wsp.repo.AppUserRepo;
+import com.career.wsp.service.exception.UserAlreadyExistsException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -13,6 +16,7 @@ import org.springframework.util.Assert;
 public class AppUserServiceImpl implements AppUserService{
 
     private final AppUserRepo appUserRepo;
+    private final ObjectMapper objectMapper;
     @Override
     public AppUserDto registerUser(AppUserDto appUserDto) {
 
@@ -24,8 +28,12 @@ public class AppUserServiceImpl implements AppUserService{
 
         boolean isUserExists = appUserRepo.existsByMobile(appUserDto.getMobile());
         if(isUserExists){
-          throw new RuntimeException("User already exists with mobile number : " + appUserDto.getMobile());
+          throw new UserAlreadyExistsException("User already exists with mobile number : " + appUserDto.getMobile());
         }
-        return null;
+        AppUser appUser = objectMapper.convertValue(appUserDto, AppUser.class);
+        appUserRepo.save(appUser);
+        appUserDto = objectMapper.convertValue(appUser,AppUserDto.class);
+        log.info("User is registered with mobile number : {}",appUserDto.getMobile());
+        return appUserDto;
     }
 }
