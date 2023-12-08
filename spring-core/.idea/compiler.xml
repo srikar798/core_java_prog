@@ -2,24 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hello-world" />
         <module name="iplstats" />
         <module name="common-util" />
+        <module name="wallet-server-app" />
         <module name="flyway-data-migration" />
-        <module name="spring-core-tutorial" />
         <module name="student-course" />
+        <module name="hello-world" />
+        <module name="spring-aop" />
+        <module name="spring-core-tutorial" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="hello-world" options="-parameters" />
-      <module name="iplstats" options="-parameters" />
+      <module name="hello-world" options="" />
+      <module name="iplstats" options="" />
+      <module name="spring-aop" options="-parameters" />
       <module name="student-course" options="-parameters" />
+      <module name="wallet-server-app" options="-parameters" />
     </option>
   </component>
 </project>
