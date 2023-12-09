@@ -12,6 +12,7 @@ import javax.sql.DataSource;
 @Configuration
 @PropertySource("classpath:db.properties")
 public class AppConfig {
+
     @Value("${db.url}")
     private String url;
     @Value("${db.username}")
@@ -27,9 +28,9 @@ public class AppConfig {
         dataSource.setPassword(password);
         return dataSource;
     }
+
     @Bean
     public JdbcTemplate jdbcTemplate(DataSource dataSource){
         return new JdbcTemplate(dataSource);
     }
-
 }

@@ -9,9 +9,9 @@ public interface ContactService {
 
     Contact addContact(Contact contact);
     Contact updateContact(Contact contact);
-    Contact removeContact(long id);
-    Contact getContact(long id);
+    boolean removeContact(Long id);
+    Contact getContact(Long id);
 
     List<Contact> search(String str);
-    List<Contact> getContact();
+    List<Contact> getContacts();
 }

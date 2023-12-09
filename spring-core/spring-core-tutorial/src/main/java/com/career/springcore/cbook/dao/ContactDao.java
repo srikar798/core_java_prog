@@ -11,7 +11,8 @@ public interface ContactDao {
 
     boolean deleteContact(long id);
 
-    Contact selectContact(String str);
+    Contact selectContact(long id);
+    List<Contact> search(String str);
 
     List<Contact> selectContacts();
 }
