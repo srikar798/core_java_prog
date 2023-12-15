@@ -1,9 +1,6 @@
 package com.career.wsp.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.PrePersist;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -21,6 +18,8 @@ public class AppUser extends BaseEntity{
     private String email;
     private String mobile;
 
+    @OneToOne(mappedBy = "appUser")
+    private Wallet wallet;
     @PrePersist
     public void prePersist(){
         super.onCreate();

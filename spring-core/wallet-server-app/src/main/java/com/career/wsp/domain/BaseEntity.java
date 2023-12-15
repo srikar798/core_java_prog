@@ -17,11 +17,11 @@ public abstract class BaseEntity {
 
     @Column(name = "created_date", updatable = false,nullable = false)
     private LocalDateTime createdDate;
-    @Column(name = "modified_date", nullable = false, insertable = false )
-    private LocalDateTime updatedDate;
+    @Column(name = "modified_date", nullable = false)
+    private LocalDateTime modifiedDate;
     @Column(name = "created_by", updatable = false,nullable = false)
     private String createdBy;
-    @Column(name = "modified_by", nullable = false, insertable = false )
+    @Column(name = "modified_by", nullable = false)
     private String modifiedBy;
     @Column(name = "deleted", nullable = false)
     private boolean deleted;
@@ -29,7 +29,7 @@ public abstract class BaseEntity {
     @PrePersist
     public  void onCreate(){
         this.createdDate = LocalDateTime.now();
-        this.updatedDate = LocalDateTime.now();
+        this.modifiedDate = LocalDateTime.now();
         this.createdBy = RequestContextProvider.getUserName();
         this.modifiedBy = RequestContextProvider.getUserName();
 
@@ -37,7 +37,7 @@ public abstract class BaseEntity {
 
     @PreUpdate
     public void onUpdate(){
-        this.updatedDate = LocalDateTime.now();
+        this.modifiedDate = LocalDateTime.now();
         this.modifiedBy = RequestContextProvider.getUserName();
     }
 }
