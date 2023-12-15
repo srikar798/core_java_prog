@@ -11,6 +11,7 @@
         <module name="common-util" />
         <module name="wallet-server-app" />
         <module name="flyway-data-migration" />
+        <module name="currency-server-app" />
         <module name="student-course" />
         <module name="hello-world" />
         <module name="spring-aop" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="currency-server-app" options="-parameters" />
       <module name="flyway-data-migration" options="-parameters" />
       <module name="hello-world" options="-parameters" />
       <module name="iplstats" options="-parameters" />

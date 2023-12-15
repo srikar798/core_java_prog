@@ -26,5 +26,6 @@
         <module>student-course</module>
         <module>spring-aop</module>
         <module>wallet-server-app</module>
+        <module>currency-server-app</module>
     </modules>
 </project>
