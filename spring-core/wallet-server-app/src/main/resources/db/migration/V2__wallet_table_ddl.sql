@@ -1,4 +1,6 @@
+
 create table wallet(
+
         id UUID primary key,
         user_id UUID not null,
         balance decimal(19,2) not null,

@@ -18,6 +18,7 @@
 
         <module>cbook</module>
         <module>spring-core</module>
+        <module>practice</module>
 
     </modules>
 
