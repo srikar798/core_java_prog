@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class CurrencyService {
 
-    List<String> currencyList = List.of("USD","INR","CNY");
+    List<String> supportedCurrencyList = List.of("USD","INR","CNY");
 
     public List<Currency> supportedCurrencies()
     {
@@ -24,9 +24,9 @@ public class CurrencyService {
             throw new RuntimeException("Unable to get the currencies");
         }
         List<Currency> filteredList = currencyList.stream().filter(currency -> {
-             return currencyList.contains(currency.code());
+             return supportedCurrencyList.contains(currency.code());
         }).toList();
-        log.info("Supportrd currencies are . {}", filteredList);
+        log.info("Supported currencies are . {}", filteredList);
         return filteredList;
     }
 }
