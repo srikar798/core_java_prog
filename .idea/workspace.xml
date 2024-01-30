@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added practice questions">
-      <change afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/service/CurrencyNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/CurrencyServerAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/CurrencyServerAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/service/CurrencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app/src/test/java/com/career/csp/CurrencyServerAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/test/java/com/career/csp/CurrencyServerAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,14 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695084698838</updated>
-    </task>
-    <task id="LOCAL-00013" summary="added answer to assignment question">
-      <option name="closed" value="true" />
-      <created>1696816326046</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1696816326046</updated>
     </task>
     <task id="LOCAL-00014" summary="added day 16">
       <option name="closed" value="true" />
@@ -615,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706584128944</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="added practice questions">
+      <option name="closed" value="true" />
+      <created>1706595100310</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1706595100310</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
