@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added crrency into wallet  service">
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/EvenLengthWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/GetAllZerosToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/MissingValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/RemoveDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/ReverseArray.java" afterDir="false" />
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added practice questions">
+      <change afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/service/CurrencyNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/CurrencyServerAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/CurrencyServerAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/main/java/com/career/csp/service/CurrencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app/src/test/java/com/career/csp/CurrencyServerAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app/src/test/java/com/career/csp/CurrencyServerAppApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
         <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-core/currency-server-app" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -59,27 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/saisrikarchivukula/Documents/git/core_java_prog&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.career.dm" />
@@ -108,7 +107,7 @@
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CurrencyServerAppApplicationTests">
     <configuration name="DbMigrationManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.career.dm.DbMigrationManager" />
       <module name="flyway-data-migration" />
@@ -142,19 +141,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.career.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OverLoadingOfMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.meta.cj.day18.OverLoadingOfMethods" />
-      <module name="learning_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.meta.cj.day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,44 +189,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning-junit" />
+    <configuration name="CurrencyServerAppApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="currency-server-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.junit.*" />
+          <option name="PATTERN" value="com.career.csp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.junit.AnagramTest" />
+      <option name="PACKAGE_NAME" value="com.career.csp" />
+      <option name="MAIN_CLASS_NAME" value="com.career.csp.CurrencyServerAppApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathOperationsTest.generatePrimeWithLowerBoundMaxUpperBoundMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning-junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.junit.MathOperationsTest" />
-      <option name="METHOD_NAME" value="generatePrimeWithLowerBoundMaxUpperBoundMin" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CurrencyServerAppApplicationTests" />
         <item itemvalue="Application.WalletServerAppApplication (3)" />
         <item itemvalue="Application.WalletServerAppApplication (2)" />
         <item itemvalue="Application.DbMigrationManager" />
         <item itemvalue="Application.HelloWorldApplication" />
-        <item itemvalue="JUnit.AnagramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,22 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695084698838</updated>
-    </task>
-    <task id="LOCAL-00011" summary="added answer to assignment question">
-      <option name="closed" value="true" />
-      <created>1696809843410</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1696809843410</updated>
-    </task>
-    <task id="LOCAL-00012" summary="added answer to assignment question">
-      <option name="closed" value="true" />
-      <created>1696813212706</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1696813212706</updated>
     </task>
     <task id="LOCAL-00013" summary="added answer to assignment question">
       <option name="closed" value="true" />
@@ -645,7 +599,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706488372336</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="added crrency into wallet  service">
+      <option name="closed" value="true" />
+      <created>1706584101888</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1706584101888</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added practice questions">
+      <option name="closed" value="true" />
+      <created>1706584128944</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1706584128944</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -696,7 +666,8 @@
     <MESSAGE value="added flyDb migration" />
     <MESSAGE value="added crrency into wallet service" />
     <MESSAGE value="added crrency into wallet  service" />
-    <option name="LAST_COMMIT_MESSAGE" value="added crrency into wallet  service" />
+    <MESSAGE value="added practice questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added practice questions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
