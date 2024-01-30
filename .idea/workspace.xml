@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added crrency into wallet service">
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added crrency into wallet  service">
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/EvenLengthWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/GetAllZerosToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/MissingValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/RemoveDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day2/ReverseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/wallet-server-app/src/main/java/com/career/wsp/controller/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/wallet-server-app/src/main/java/com/career/wsp/controller/CurrencyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/wallet-server-app/src/main/java/com/career/wsp/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/wallet-server-app/src/main/java/com/career/wsp/service/CurrencyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +108,7 @@
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WalletServerAppApplication (3)">
+  <component name="RunManager">
     <configuration name="DbMigrationManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.career.dm.DbMigrationManager" />
       <module name="flyway-data-migration" />
@@ -249,14 +252,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695084698838</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added day 15">
-      <option name="closed" value="true" />
-      <created>1696807911591</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1696807911591</updated>
     </task>
     <task id="LOCAL-00011" summary="added answer to assignment question">
       <option name="closed" value="true" />
@@ -642,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706416460298</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added crrency into wallet  service">
+      <option name="closed" value="true" />
+      <created>1706488372336</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1706488372336</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -692,18 +695,8 @@
     <MESSAGE value="added spring" />
     <MESSAGE value="added flyDb migration" />
     <MESSAGE value="added crrency into wallet service" />
-    <option name="LAST_COMMIT_MESSAGE" value="added crrency into wallet service" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-core/wallet-server-app/src/main/java/com/career/wsp/service/CurrencyService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added crrency into wallet  service" />
+    <option name="LAST_COMMIT_MESSAGE" value="added crrency into wallet  service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
