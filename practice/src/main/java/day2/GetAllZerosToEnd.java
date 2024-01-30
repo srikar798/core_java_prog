@@ -14,7 +14,7 @@ public class GetAllZerosToEnd {
             }
         }
         for(int  num : arr){
-            System.out.print(num);
+            System.out.println(num);
         }
     }
 }
