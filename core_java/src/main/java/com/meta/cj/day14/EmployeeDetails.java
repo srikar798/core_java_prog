@@ -50,11 +50,11 @@ public class EmployeeDetails {
                 new Employee(1006,"Sai",95000)
         );
 
-        String empIds = getEmployeeIdsSalartGte(employeeList,75000);
+        String empIds = getEmployeeIdsSalaryGte(employeeList,75000);
         System.out.println(empIds);
         }
 
-        private static String getEmployeeIdsSalartGte(List<Employee> employeeList, double salary) {
+        private static String getEmployeeIdsSalaryGte(List<Employee> employeeList, double salary) {
             List<String> idList = new ArrayList<>();
             for(Employee employee : employeeList){
                 if(employee.getSalary() > salary){

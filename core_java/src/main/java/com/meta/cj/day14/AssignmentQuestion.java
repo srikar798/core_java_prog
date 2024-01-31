@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 class Employees{
 
-    private String department;
-    private int empId;
-    private String eName;
-    private double salary;
-    private String mobile;
+    private final String department;
+    private final int empId;
+    private final String eName;
+    private final double salary;
+    private final String mobile;
 
     public Employees(String department, int empId, String eName, double salary, String mobile) {
         this.department = department;
@@ -49,7 +49,7 @@ class Employees{
 }
 public class AssignmentQuestion {
 
-    private static List<Employees> employeeList = new ArrayList<>();
+    private static final List<Employees> employeeList = new ArrayList<>();
 
     public static void main(String[] args) {
 
@@ -109,7 +109,7 @@ public class AssignmentQuestion {
         for(Employees employe : employeeList){
             if(employe.getDepartment().equals("EC")){
                 employe.showDetails();
-                System.out.println("");
+                System.out.println();
             }
 
         }

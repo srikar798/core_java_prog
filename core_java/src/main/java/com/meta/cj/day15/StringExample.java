@@ -19,7 +19,7 @@ public class StringExample {
                     .append("</body>")
                     .append("</html>");
             System.out.println(sb.toString());
-            System.out.println("-".repeat(30));
+            System.out.println("-".repeat(300));
          }
     }
 }
