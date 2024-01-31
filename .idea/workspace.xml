@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added practice questions">
-      <change afterPath="$PROJECT_DIR$/core_java/src/main/java/com/meta/cj/day9/FindBiggestOfNNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_java/src/main/java/com/meta/cj/day9/SumOfNNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core_java/src/main/java/com/meta/cj/day9/CommandLineArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/src/main/java/com/meta/cj/day9/CommandLineArguments.java" afterDir="false" />
-    </list>
+    <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="arrays" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,14 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695084698838</updated>
-    </task>
-    <task id="LOCAL-00019" summary="added day 19">
-      <option name="closed" value="true" />
-      <created>1697085563982</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1697085563982</updated>
     </task>
     <task id="LOCAL-00020" summary="added day 30">
       <option name="closed" value="true" />
@@ -628,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706660701612</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1706683368911</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1706683368912</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -680,7 +675,8 @@
     <MESSAGE value="added crrency into wallet service" />
     <MESSAGE value="added crrency into wallet  service" />
     <MESSAGE value="added practice questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added practice questions" />
+    <MESSAGE value="arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
