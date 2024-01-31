@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81adf37c-f2d0-4e68-ba79-18b1dcaaf4ac" name="Changes" comment="added practice questions">
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day3/EncryptionStrength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/main/java/day3/GetScoreDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-core/currency-server-app" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/currency-server-app" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
         <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-core/currency-server-app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -60,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "20",
     "last_opened_file_path": "/Users/saisrikarchivukula/Documents/git/core_java_prog",
     "project.structure.last.edited": "Modules",
@@ -103,7 +106,7 @@
       <recent name="com.meta.cj.day18" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CurrencyServerAppApplicationTests">
+  <component name="RunManager">
     <configuration name="DbMigrationManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.career.dm.DbMigrationManager" />
       <module name="flyway-data-migration" />
@@ -218,30 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695084698838</updated>
-    </task>
-    <task id="LOCAL-00014" summary="added day 16">
-      <option name="closed" value="true" />
-      <created>1696898140126</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1696898140126</updated>
-    </task>
-    <task id="LOCAL-00015" summary="added day 17">
-      <option name="closed" value="true" />
-      <created>1696902409419</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1696902409419</updated>
-    </task>
-    <task id="LOCAL-00016" summary="added day 17">
-      <option name="closed" value="true" />
-      <created>1696976631099</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1696976631099</updated>
     </task>
     <task id="LOCAL-00017" summary="added day 17 examples">
       <option name="closed" value="true" />
@@ -611,7 +590,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706595100310</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="added practice questions">
+      <option name="closed" value="true" />
+      <created>1706595171902</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1706595171902</updated>
+    </task>
+    <task id="LOCAL-00064" summary="added practice questions">
+      <option name="closed" value="true" />
+      <created>1706595320570</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1706595320570</updated>
+    </task>
+    <task id="LOCAL-00065" summary="added practice questions">
+      <option name="closed" value="true" />
+      <created>1706604382901</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1706604382901</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
